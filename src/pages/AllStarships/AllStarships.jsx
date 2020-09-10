@@ -18,7 +18,7 @@ class AllStarships extends Component {
     return ( 
       <>
         {this.state.allStarships.map((starship, idx) => 
-          <div key={idx}>
+          <button id="starships" key={idx}>
             <Link
               to={{ 
                 pathname: '/starship',
@@ -27,7 +27,7 @@ class AllStarships extends Component {
             >
             {starship.name}
             </Link>
-          </div>
+          </button>
         )}
       </>
      );

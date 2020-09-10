@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -35,4 +36,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+ h1 {
+  background-color: #A30B37;
+ }
+
+#starship {
+  border: 1px solid black;
+  background-color: #BD6B73;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+#starships {
+  padding: 10px;
+  margin: auto;
+  background-color: #BD6B73;
 }
